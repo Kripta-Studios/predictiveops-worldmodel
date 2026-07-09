@@ -1,4 +1,174 @@
 datasets:
+  - dataset_id: nasa_milling_wear
+    name: NASA Milling Wear
+    priority: A
+    family: sensor
+    status: planned_manifest_only
+    official_source_url: https://data.nasa.gov/dataset/milling-wear
+    access_date: 2026-07-09
+    download_policy: owner_url_allowed_record_checksum_after_download
+    local_path_hint: data/raw/sensor/nasa_milling_wear
+    required_split_protocols:
+      - held_out_tool_or_cutting_condition
+      - chronological_future
+    action_context_policy: feeds/speeds/depth-of-cut are context unless command timestamps exist
+    leakage_risks:
+      - wear labels
+      - cycle-to-failure
+      - aggregates over full tool life
+  - dataset_id: phm2010_milling
+    name: PHM 2010 Milling Challenge
+    priority: A
+    family: sensor
+    status: planned_manifest_only
+    official_source_url: https://phmsociety.org/phm_competition/2010-phm-society-conference-data-challenge/
+    access_date: 2026-07-09
+    download_policy: owner_url_allowed_record_terms_and_checksum_after_download
+    local_path_hint: data/raw/sensor/phm2010_milling
+    required_split_protocols:
+      - leave_one_cutter_out
+      - validation_only_thresholds
+    action_context_policy: cutting parameters are context unless command events are timestamped
+    leakage_risks:
+      - wear per cut at future horizons
+      - RUL target leakage
+      - cutter overlap
+  - dataset_id: cnc_tool_wear_18_runs
+    name: CNC Mill Tool Wear / 18 runs
+    priority: A
+    family: sensor
+    status: blocked_pending_verified_owner_source
+    official_source_url:
+    access_date: 2026-07-09
+    download_policy: do_not_download_from_mirror_until_owner_terms_are_recorded
+    local_path_hint: data/raw/sensor/cnc_tool_wear_18_runs
+    required_split_protocols:
+      - held_out_run_or_tool
+      - chronological_future
+    action_context_policy: controller variables require timestamp audit before action claims
+    leakage_risks:
+      - tool condition labels
+      - run-level random split
+      - post-cycle aggregates
+  - dataset_id: metropt3
+    name: MetroPT-3
+    priority: A
+    family: sensor
+    status: planned_manifest_only
+    official_source_url: https://zenodo.org/records/6854240
+    access_date: 2026-07-09
+    download_policy: owner_url_allowed_record_doi_version_and_checksum_after_download
+    local_path_hint: data/raw/sensor/metropt3
+    required_split_protocols:
+      - chronological_future
+      - maintenance_boundary_aware
+    action_context_policy: valve states need command/response provenance before action claims
+    leakage_risks:
+      - maintenance reports after event
+      - future fault intervals
+      - test-label thresholds
+  - dataset_id: hydraulic_systems
+    name: Hydraulic System Condition Monitoring
+    priority: A
+    family: sensor
+    status: planned_manifest_only
+    official_source_url: https://archive.ics.uci.edu/dataset/447/condition+monitoring+of+hydraulic+systems
+    access_date: 2026-07-09
+    download_policy: owner_url_allowed_record_uci_metadata_and_checksum_after_download
+    local_path_hint: data/raw/sensor/hydraulic_systems
+    required_split_protocols:
+      - held_out_component_condition
+      - grouped_cross_validation
+    action_context_policy: load cycles and operating profiles are context unless interventions exist
+    leakage_risks:
+      - condition labels as input
+      - profile-level random split
+      - full-cycle aggregates
+  - dataset_id: swat
+    name: Secure Water Treatment
+    priority: A
+    family: plc
+    status: manual_request_required
+    official_source_url: https://www.sutd.edu.sg/itrust/itrust-labs/datasets/dataset-characteristics/swat/
+    access_date: 2026-07-09
+    download_policy: manual_request_only_do_not_bypass_terms
+    local_path_hint: data/raw/plc/swat
+    required_split_protocols:
+      - chronological_normal_attack_split
+      - validation_only_thresholds
+    action_context_policy: actuator tags may be actions only after command/response semantics are mapped
+    leakage_risks:
+      - attack labels
+      - future alarms
+      - timestamp shuffling
+      - test-label score direction
+  - dataset_id: mvtec_ad2
+    name: MVTec AD 2
+    priority: A
+    family: visual
+    status: planned_manifest_only
+    official_source_url: https://www.mvtec.com/research-teaching/datasets/mvtec-ad-2
+    access_date: 2026-07-09
+    download_policy: owner_url_allowed_respect_evaluation_server_and_terms
+    local_path_hint: data/raw/visual/mvtec_ad2
+    required_split_protocols:
+      - official_mvtec_ad2_split
+      - public_vs_server_test_separation
+    action_context_policy: not_action_dataset
+    leakage_risks:
+      - test masks
+      - category-specific thresholding on test
+      - public/server mixup
+  - dataset_id: mvtec_loco_ad
+    name: MVTec LOCO AD
+    priority: A
+    family: visual
+    status: planned_manifest_only
+    official_source_url: https://www.mvtec.com/research-teaching/datasets/mvtec-loco-ad
+    access_date: 2026-07-09
+    download_policy: owner_url_allowed_record_terms_and_checksum_after_download
+    local_path_hint: data/raw/visual/mvtec_loco_ad
+    required_split_protocols:
+      - official_train_test_split
+    action_context_policy: not_action_dataset
+    leakage_risks:
+      - logical test labels
+      - category thresholding on test
+      - mask leakage
+  - dataset_id: mvtec_3d_ad
+    name: MVTec 3D-AD
+    priority: A
+    family: visual_3d
+    status: planned_manifest_only
+    official_source_url: https://www.mvtec.com/research-teaching/datasets/mvtec-3d-ad
+    access_date: 2026-07-09
+    download_policy: owner_url_allowed_record_terms_and_checksum_after_download
+    local_path_hint: data/raw/visual/mvtec_3d_ad
+    required_split_protocols:
+      - official_train_test_split
+      - modality_missingness_test
+    action_context_policy: not_action_dataset
+    leakage_risks:
+      - test masks
+      - aligned modality leakage
+      - category thresholding on test
+  - dataset_id: visa
+    name: Visual Anomaly (VisA)
+    priority: A
+    family: visual
+    status: external_local_reference_partial
+    official_source_url: https://registry.opendata.aws/visa/
+    access_date: 2026-07-09
+    download_policy: aws_open_data_allowed_record_snapshot_and_checksum_after_download
+    local_path_hint: data/raw/visual/visa
+    required_split_protocols:
+      - official_or_documented_category_split
+      - cross_dataset_evaluation
+    action_context_policy: not_action_dataset
+    leakage_risks:
+      - test masks
+      - category thresholding on test
+      - duplicate image paths
   - dataset_id: legacy_mvp_cnc_milling
     family: sensor
     status: external_local_reference

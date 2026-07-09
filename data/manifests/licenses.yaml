@@ -1,4 +1,44 @@
 licenses:
+  - dataset_id: nasa_milling_wear
+    license_status: official_page_reports_other_license_specified_needs_review
+    terms_url: https://data.nasa.gov/dataset/milling-wear
+    redistribution: do_not_redistribute_until_terms_reviewed
+  - dataset_id: phm2010_milling
+    license_status: terms_need_manual_review
+    terms_url: https://phmsociety.org/phm_competition/2010-phm-society-conference-data-challenge/
+    redistribution: do_not_redistribute_until_terms_reviewed
+  - dataset_id: cnc_tool_wear_18_runs
+    license_status: unverified
+    terms_url:
+    redistribution: prohibited_until_owner_source_and_terms_are_recorded
+  - dataset_id: metropt3
+    license_status: zenodo_record_terms_need_review
+    terms_url: https://zenodo.org/records/6854240
+    redistribution: follow_zenodo_record_terms
+  - dataset_id: hydraulic_systems
+    license_status: uci_terms_need_review
+    terms_url: https://archive.ics.uci.edu/dataset/447/condition+monitoring+of+hydraulic+systems
+    redistribution: follow_uci_terms
+  - dataset_id: swat
+    license_status: request_terms_required
+    terms_url: https://www.sutd.edu.sg/itrust/itrust-labs/datasets/dataset-characteristics/swat/
+    redistribution: prohibited_without_itrust_permission
+  - dataset_id: mvtec_ad2
+    license_status: mvtec_terms_need_review
+    terms_url: https://www.mvtec.com/research-teaching/datasets/mvtec-ad-2
+    redistribution: follow_mvtec_terms
+  - dataset_id: mvtec_loco_ad
+    license_status: mvtec_terms_need_review
+    terms_url: https://www.mvtec.com/research-teaching/datasets/mvtec-loco-ad
+    redistribution: follow_mvtec_terms
+  - dataset_id: mvtec_3d_ad
+    license_status: mvtec_terms_need_review
+    terms_url: https://www.mvtec.com/research-teaching/datasets/mvtec-3d-ad
+    redistribution: follow_mvtec_terms
+  - dataset_id: visa
+    license_status: cc_by_4_0_reported_by_aws_registry
+    terms_url: https://creativecommons.org/licenses/by/4.0/
+    redistribution: attribution_required_follow_cc_by_4_0
   - dataset_id: legacy_mvp_cnc_milling
     license_status: not_verified_in_this_repository
     redistribution: do_not_redistribute_raw_data

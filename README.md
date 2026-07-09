@@ -16,6 +16,7 @@ Initial executable scaffolding now includes:
 - a strict `sota_gate.json` evaluator;
 - token and world-model interface contracts;
 - hardware-aware compute planning for CPU/GPU runs with CPU smoke mode.
+- Priority A dataset manifest and owner-respecting download/request instructions.
 
 ---
 
