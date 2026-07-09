@@ -17,7 +17,7 @@ from forgeworld.data.splits import SplitManifest
 
 
 FORBIDDEN_INPUT_NAME_RE = re.compile(
-    r"(^label$|^target$|future|lookahead|cycle[_-]?to[_-]?failure|"
+    r"(^label$|^target$|future|lookahead|failure[_-]?soon|cycle[_-]?to[_-]?failure|"
     r"time[_-]?to[_-]?failure|remaining[_-]?useful[_-]?life|\brul\b|"
     r"final[_-]?quality|future[_-]?alarm|future[_-]?maintenance|post[_-]?failure)",
     flags=re.IGNORECASE,

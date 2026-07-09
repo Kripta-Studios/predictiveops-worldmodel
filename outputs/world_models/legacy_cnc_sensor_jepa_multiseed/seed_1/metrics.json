@@ -13,12 +13,13 @@
   "dataset": "legacy_mvp_cnc_windows",
   "dataset_version": "industrial_jepa_mvp_54bf4099",
   "device": "cuda:0",
-  "elapsed_seconds": 0.11326766014099121,
+  "elapsed_seconds": 0.11435341835021973,
   "experiment_name": "legacy_cnc_deterministic_sensor_jepa_world_model",
   "feature_count": 120,
   "forbidden_columns": [
     "CycleToFailure",
     "CycleToFailureNormalized",
+    "failure_soon",
     "wear_class",
     "wear_class_name"
   ],
@@ -73,6 +74,12 @@
     "failure_auprc",
     "failure_f1_at_0_5"
   ],
+  "operational_metrics": [
+    "event_recall",
+    "median_lead_cycles",
+    "events_missed",
+    "false_alarms_per_1000_cycles"
+  ],
   "outcome_columns": [
     "failure_soon_from_cycle_to_failure_for_training_head"
   ],
@@ -84,6 +91,17 @@
       "failure_f1_at_0_5": 0.23376623376623376,
       "failure_rate": 0.07755102217197418,
       "forecast_mse": 0.841681718826294,
+      "operational": {
+        "evaluated_cycles": 490,
+        "event_recall": 0.5,
+        "events_detected": 1,
+        "events_missed": 1,
+        "events_total": 2,
+        "false_alarms": 0,
+        "false_alarms_per_1000_cycles": 0.0,
+        "mean_lead_cycles": 50.0,
+        "median_lead_cycles": 50.0
+      },
       "samples": 490
     },
     "train": {
@@ -92,6 +110,17 @@
       "failure_f1_at_0_5": 0.8068965517241379,
       "failure_rate": 0.15789473056793213,
       "forecast_mse": 0.9974335432052612,
+      "operational": {
+        "evaluated_cycles": 1026,
+        "event_recall": 0.7777777777777778,
+        "events_detected": 7,
+        "events_missed": 2,
+        "events_total": 9,
+        "false_alarms": 0,
+        "false_alarms_per_1000_cycles": 0.0,
+        "mean_lead_cycles": 1.1428571428571428,
+        "median_lead_cycles": 1.0
+      },
       "samples": 1026
     },
     "validation": {
@@ -100,6 +129,17 @@
       "failure_f1_at_0_5": 0.7766990291262136,
       "failure_rate": 0.2531645596027374,
       "forecast_mse": 1.970078468322754,
+      "operational": {
+        "evaluated_cycles": 158,
+        "event_recall": 1.0,
+        "events_detected": 2,
+        "events_missed": 0,
+        "events_total": 2,
+        "false_alarms": 0,
+        "false_alarms_per_1000_cycles": 0.0,
+        "mean_lead_cycles": 6.5,
+        "median_lead_cycles": 6.5
+      },
       "samples": 158
     }
   },

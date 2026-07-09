@@ -47,6 +47,15 @@ def test_leakage_audit_rejects_future_like_input_name() -> None:
     assert "future_or_outcome_like_input_name" in {issue.code for issue in report.errors()}
 
 
+def test_leakage_audit_rejects_failure_soon_input_name() -> None:
+    schema = _base_schema((ColumnSpec("failure_soon", ColumnRole.OBSERVATION, "int"),))
+
+    report = run_leakage_audit(schema, ("current", "failure_soon"))
+
+    assert not report.passed
+    assert "future_or_outcome_like_input_name" in {issue.code for issue in report.errors()}
+
+
 def test_failed_leakage_audit_blocks_training_unless_unsafe_debug() -> None:
     report = run_leakage_audit(_base_schema(), ("failure",))
 

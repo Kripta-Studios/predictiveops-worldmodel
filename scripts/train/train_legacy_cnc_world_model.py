@@ -122,6 +122,15 @@ def _aggregate_reports(reports: list[dict[str, Any]], output_dir: Path) -> dict[
             metric: _summarize_metric(reports, "test", metric)
             for metric in ("forecast_mse", "failure_auroc", "failure_auprc", "failure_f1_at_0_5")
         },
+        "test_operational_summary": {
+            metric: _summarize_operational_metric(reports, "test", metric)
+            for metric in (
+                "event_recall",
+                "median_lead_cycles",
+                "events_missed",
+                "false_alarms_per_1000_cycles",
+            )
+        },
         "validation_summary": {
             metric: _summarize_metric(reports, "validation", metric)
             for metric in ("forecast_mse", "failure_auroc", "failure_auprc", "failure_f1_at_0_5")
@@ -132,6 +141,7 @@ def _aggregate_reports(reports: list[dict[str, Any]], output_dir: Path) -> dict[
                 "seed": report["seed"],
                 "checkpoint_path": report["checkpoint_path"],
                 "test_metrics": report["split_metrics"]["test"],
+                "test_operational": report["split_metrics"]["test"]["operational"],
                 "final_train_loss": report["history"][-1]["loss"],
             }
             for report in reports
@@ -143,6 +153,24 @@ def _aggregate_reports(reports: list[dict[str, Any]], output_dir: Path) -> dict[
         encoding="utf-8",
     )
     return aggregate
+
+
+def _summarize_operational_metric(
+    reports: list[dict[str, Any]],
+    split: str,
+    metric: str,
+) -> dict[str, float | None]:
+    values = [
+        report["split_metrics"][split]["operational"][metric]
+        for report in reports
+        if report["split_metrics"][split]["operational"][metric] is not None
+    ]
+    if not values:
+        return {"mean": None, "std": None}
+    return {
+        "mean": float(mean(values)),
+        "std": float(stdev(values)) if len(values) > 1 else 0.0,
+    }
 
 
 if __name__ == "__main__":

@@ -9,6 +9,7 @@ from statistics import mean, stdev
 from typing import Any, Iterable
 
 from forgeworld.data.datasets.legacy_cnc import LegacyCncWindowsAdapter
+from forgeworld.evaluation.lead_time import event_lead_time_metrics
 from forgeworld.runtime.compute import WorkerPlan
 
 
@@ -41,7 +42,13 @@ CONTEXT_COLUMNS = (
     "FeedRate",
     "ToolDiameter",
 )
-FORBIDDEN_COLUMNS = {"CycleToFailure", "CycleToFailureNormalized", "wear_class", "wear_class_name"}
+FORBIDDEN_COLUMNS = {
+    "CycleToFailure",
+    "CycleToFailureNormalized",
+    "failure_soon",
+    "wear_class",
+    "wear_class_name",
+}
 
 
 @dataclass(frozen=True)
@@ -227,6 +234,25 @@ def _metric_payload(y_true: Any, y_pred: Any, y_score: Any) -> dict[str, float |
     return metrics
 
 
+def _operational_payload(df_split: Any, y_true: Any, y_pred: Any) -> dict[str, float | int | None]:
+    records = [
+        {
+            "asset_id": str(tool),
+            "cycle": float(cycle),
+            "label": int(label),
+            "alert": int(alert),
+        }
+        for tool, cycle, label, alert in zip(
+            df_split["ToolIndex"],
+            df_split["NumberOfCycle"],
+            y_true,
+            y_pred,
+            strict=True,
+        )
+    ]
+    return event_lead_time_metrics(records).to_dict()
+
+
 def _aggregate(rows: Iterable[dict[str, Any]]) -> list[dict[str, Any]]:
     grouped: dict[tuple[str, str], list[dict[str, Any]]] = {}
     for row in rows:
@@ -238,6 +264,21 @@ def _aggregate(rows: Iterable[dict[str, Any]]) -> list[dict[str, Any]]:
             present = [value[metric] for value in values if value[metric] is not None]
             summary[f"{metric}_mean"] = float(mean(present)) if present else None
             summary[f"{metric}_std"] = float(stdev(present)) if len(present) > 1 else 0.0 if present else None
+        for metric in (
+            "event_recall",
+            "median_lead_cycles",
+            "events_missed",
+            "false_alarms_per_1000_cycles",
+        ):
+            present = [
+                value["operational"][metric]
+                for value in values
+                if value.get("operational", {}).get(metric) is not None
+            ]
+            summary[f"{metric}_mean"] = float(mean(present)) if present else None
+            summary[f"{metric}_std"] = (
+                float(stdev(present)) if len(present) > 1 else 0.0 if present else None
+            )
         summaries.append(summary)
     return summaries
 
@@ -266,6 +307,7 @@ def run_legacy_cnc_baselines(
         feature_columns_by_set[feature_set] = columns
         x_train = df.loc[masks["train"], columns].to_numpy(dtype=np.float32)
         y_train = df.loc[masks["train"], "failure_soon"].to_numpy(dtype=np.int64)
+        test_df = df.loc[masks["test"], ["ToolIndex", "NumberOfCycle"]].copy()
         x_test = df.loc[masks["test"], columns].to_numpy(dtype=np.float32)
         y_test = df.loc[masks["test"], "failure_soon"].to_numpy(dtype=np.int64)
         for seed in config.seeds:
@@ -275,12 +317,14 @@ def run_legacy_cnc_baselines(
                 y_pred = model.predict(x_test)
                 y_score = _positive_scores(model, x_test)
                 metrics = _metric_payload(y_test, y_pred, y_score)
+                operational = _operational_payload(test_df, y_test, y_pred)
                 rows.append(
                     {
                         "model": model_name,
                         "feature_set": feature_set,
                         "seed": seed,
                         "feature_count": len(columns),
+                        "operational": operational,
                         **metrics,
                     }
                 )
@@ -306,6 +350,13 @@ def run_legacy_cnc_baselines(
         "seeds": list(config.seeds),
         "failure_horizon_cycles": config.failure_horizon_cycles,
         "forbidden_columns": sorted(FORBIDDEN_COLUMNS),
+        "metrics": ["accuracy", "f1", "auroc", "auprc"],
+        "operational_metrics": [
+            "event_recall",
+            "median_lead_cycles",
+            "events_missed",
+            "false_alarms_per_1000_cycles",
+        ],
         "threshold_selection": "fixed_0_5_no_test_tuning",
         "claim_scope": config.claim_scope,
         "test_set_influenced_model_selection": False,

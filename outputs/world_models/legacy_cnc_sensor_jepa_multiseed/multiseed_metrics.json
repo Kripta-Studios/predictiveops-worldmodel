@@ -26,7 +26,29 @@
         "failure_f1_at_0_5": 0.22784810126582278,
         "failure_rate": 0.07755102217197418,
         "forecast_mse": 0.8316483497619629,
+        "operational": {
+          "evaluated_cycles": 490,
+          "event_recall": 0.5,
+          "events_detected": 1,
+          "events_missed": 1,
+          "events_total": 2,
+          "false_alarms": 0,
+          "false_alarms_per_1000_cycles": 0.0,
+          "mean_lead_cycles": 54.0,
+          "median_lead_cycles": 54.0
+        },
         "samples": 490
+      },
+      "test_operational": {
+        "evaluated_cycles": 490,
+        "event_recall": 0.5,
+        "events_detected": 1,
+        "events_missed": 1,
+        "events_total": 2,
+        "false_alarms": 0,
+        "false_alarms_per_1000_cycles": 0.0,
+        "mean_lead_cycles": 54.0,
+        "median_lead_cycles": 54.0
       }
     },
     {
@@ -39,7 +61,29 @@
         "failure_f1_at_0_5": 0.23376623376623376,
         "failure_rate": 0.07755102217197418,
         "forecast_mse": 0.841681718826294,
+        "operational": {
+          "evaluated_cycles": 490,
+          "event_recall": 0.5,
+          "events_detected": 1,
+          "events_missed": 1,
+          "events_total": 2,
+          "false_alarms": 0,
+          "false_alarms_per_1000_cycles": 0.0,
+          "mean_lead_cycles": 50.0,
+          "median_lead_cycles": 50.0
+        },
         "samples": 490
+      },
+      "test_operational": {
+        "evaluated_cycles": 490,
+        "event_recall": 0.5,
+        "events_detected": 1,
+        "events_missed": 1,
+        "events_total": 2,
+        "false_alarms": 0,
+        "false_alarms_per_1000_cycles": 0.0,
+        "mean_lead_cycles": 50.0,
+        "median_lead_cycles": 50.0
       }
     },
     {
@@ -52,7 +96,29 @@
         "failure_f1_at_0_5": 0.4444444444444444,
         "failure_rate": 0.07755102217197418,
         "forecast_mse": 0.8455787301063538,
+        "operational": {
+          "evaluated_cycles": 490,
+          "event_recall": 0.5,
+          "events_detected": 1,
+          "events_missed": 1,
+          "events_total": 2,
+          "false_alarms": 0,
+          "false_alarms_per_1000_cycles": 0.0,
+          "mean_lead_cycles": 20.0,
+          "median_lead_cycles": 20.0
+        },
         "samples": 490
+      },
+      "test_operational": {
+        "evaluated_cycles": 490,
+        "event_recall": 0.5,
+        "events_detected": 1,
+        "events_missed": 1,
+        "events_total": 2,
+        "false_alarms": 0,
+        "false_alarms_per_1000_cycles": 0.0,
+        "mean_lead_cycles": 20.0,
+        "median_lead_cycles": 20.0
       }
     }
   ],
@@ -63,6 +129,24 @@
   ],
   "split_protocol": "legacy_held_out_tool_manifest",
   "status": "experimental",
+  "test_operational_summary": {
+    "event_recall": {
+      "mean": 0.5,
+      "std": 0.0
+    },
+    "events_missed": {
+      "mean": 1.0,
+      "std": 0.0
+    },
+    "false_alarms_per_1000_cycles": {
+      "mean": 0.0,
+      "std": 0.0
+    },
+    "median_lead_cycles": {
+      "mean": 41.333333333333336,
+      "std": 18.58314648635514
+    }
+  },
   "test_set_influenced_model_selection": false,
   "test_summary": {
     "failure_auprc": {

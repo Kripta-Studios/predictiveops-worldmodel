@@ -123,6 +123,8 @@ def test_build_world_model_arrays_excludes_forbidden_inputs(tmp_path: Path) -> N
     assert "CycleToFailure" not in arrays.feature_names
     assert arrays.x.shape[1:] == (4, 2)
     assert set(arrays.horizons) == {1, 2}
+    assert len(arrays.asset_id) == len(arrays.failure)
+    assert len(arrays.cycle) == len(arrays.failure)
 
 
 def test_train_world_model_smoke_writes_checkpoint_and_metrics(tmp_path: Path) -> None:
@@ -150,5 +152,6 @@ def test_train_world_model_smoke_writes_checkpoint_and_metrics(tmp_path: Path) -
     assert report["status"] == "experimental"
     assert report["action_columns"] == []
     assert report["split_metrics"]["test"]["samples"] > 0
+    assert "operational" in report["split_metrics"]["test"]
     assert (tmp_path / "out" / "checkpoint.pt").exists()
     assert (tmp_path / "out" / "metrics.json").exists()

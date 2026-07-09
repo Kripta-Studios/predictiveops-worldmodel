@@ -45,6 +45,7 @@ def compare_world_model_to_baselines(
             "failure_auroc_mean": world_auroc,
             "failure_auprc_mean": world_auprc,
             "forecast_mse_mean": world_test["forecast_mse"]["mean"],
+            "test_operational_summary": world_model_report.get("test_operational_summary"),
             "claim_scope": world_model_report["claim_scope"],
         },
         "baseline_reference": {
@@ -55,12 +56,22 @@ def compare_world_model_to_baselines(
                 "feature_set": auroc_baseline["feature_set"],
                 "auroc_mean": auroc_baseline["auroc_mean"],
                 "auprc_mean": auroc_baseline["auprc_mean"],
+                "event_recall_mean": auroc_baseline.get("event_recall_mean"),
+                "median_lead_cycles_mean": auroc_baseline.get("median_lead_cycles_mean"),
+                "false_alarms_per_1000_cycles_mean": auroc_baseline.get(
+                    "false_alarms_per_1000_cycles_mean"
+                ),
             },
             "highest_auprc_baseline": {
                 "model": auprc_baseline["model"],
                 "feature_set": auprc_baseline["feature_set"],
                 "auroc_mean": auprc_baseline["auroc_mean"],
                 "auprc_mean": auprc_baseline["auprc_mean"],
+                "event_recall_mean": auprc_baseline.get("event_recall_mean"),
+                "median_lead_cycles_mean": auprc_baseline.get("median_lead_cycles_mean"),
+                "false_alarms_per_1000_cycles_mean": auprc_baseline.get(
+                    "false_alarms_per_1000_cycles_mean"
+                ),
             },
         },
         "deltas": {
@@ -79,7 +90,7 @@ def compare_world_model_to_baselines(
                 or world_auroc < auroc_baseline["auroc_mean"]
                 or world_auprc < auprc_baseline["auprc_mean"]
             )
-            else "world_model_exceeds_recorded_simple_baselines_under_this_internal_protocol"
+            else "world_model_has_higher_recorded_metrics_under_this_internal_protocol"
         ),
         "limitations": [
             "This is an internal protocol comparison, not an external benchmark claim.",

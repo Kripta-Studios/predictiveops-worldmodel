@@ -23,6 +23,7 @@ from forgeworld.baselines.legacy_cnc import (
     select_feature_columns,
 )
 from forgeworld.data.datasets.legacy_cnc import LegacyCncWindowsAdapter
+from forgeworld.evaluation.lead_time import event_lead_time_metrics
 from forgeworld.runtime.compute import WorkerPlan
 
 
@@ -82,6 +83,8 @@ class CncWorldModelArrays:
     target: Any
     failure: Any
     split: Any
+    asset_id: Any
+    cycle: Any
     feature_names: tuple[str, ...]
     context_names: tuple[str, ...]
     horizons: tuple[int, ...]
@@ -141,6 +144,8 @@ def build_legacy_cnc_world_model_arrays(config: LegacyCncWorldModelConfig) -> Cn
     targets: list[Any] = []
     failures: list[int] = []
     splits: list[int] = []
+    asset_ids: list[str] = []
+    cycles: list[float] = []
 
     horizon_to_index = {horizon: index for index, horizon in enumerate(config.horizons)}
     for tool_id, group in df.groupby("ToolIndex"):
@@ -169,6 +174,8 @@ def build_legacy_cnc_world_model_arrays(config: LegacyCncWorldModelConfig) -> Cn
                 targets.append(values[target_start:target_end])
                 failures.append(int(ctf[target_end - 1] <= config.failure_horizon_cycles))
                 splits.append(split_code[split])
+                asset_ids.append(str(int(tool_id)))
+                cycles.append(float(group.loc[target_end - 1, "NumberOfCycle"]))
     if not xs:
         raise RuntimeError("No CNC world-model transitions were created.")
     x = np.stack(xs).astype(np.float32)
@@ -177,6 +184,8 @@ def build_legacy_cnc_world_model_arrays(config: LegacyCncWorldModelConfig) -> Cn
     horizon_index = np.asarray(horizon_indices, dtype=np.int64)
     failure = np.asarray(failures, dtype=np.float32)
     split = np.asarray(splits, dtype=np.int64)
+    asset_id = np.asarray(asset_ids, dtype=object)
+    cycle = np.asarray(cycles, dtype=np.float32)
     train_mask = split == split_code["train"]
     if not train_mask.any():
         raise RuntimeError("No train transitions after manifest split.")
@@ -194,6 +203,8 @@ def build_legacy_cnc_world_model_arrays(config: LegacyCncWorldModelConfig) -> Cn
         target=_standardize(target, sensor_mean, sensor_std),
         failure=failure,
         split=split,
+        asset_id=asset_id,
+        cycle=cycle,
         feature_names=feature_names,
         context_names=context_names,
         horizons=config.horizons,
@@ -367,6 +378,21 @@ def _evaluate_split(
         auroc = float(roc_auc_score(y_true, prob))
         auprc = float(average_precision_score(y_true, prob))
     pred = (prob >= 0.5).astype(int)
+    operational_records = [
+        {
+            "asset_id": str(asset),
+            "cycle": float(cycle),
+            "label": int(label),
+            "alert": int(alert),
+        }
+        for asset, cycle, label, alert in zip(
+            arrays.asset_id[indices],
+            arrays.cycle[indices],
+            y_true,
+            pred,
+            strict=True,
+        )
+    ]
     return {
         "samples": int(len(indices)),
         "forecast_mse": mse,
@@ -374,6 +400,7 @@ def _evaluate_split(
         "failure_auprc": auprc,
         "failure_f1_at_0_5": float(f1_score(y_true, pred, zero_division=0)) if len(y_true) else 0.0,
         "failure_rate": float(y_true.mean()) if len(y_true) else 0.0,
+        "operational": event_lead_time_metrics(operational_records).to_dict(),
     }
 
 
@@ -460,6 +487,12 @@ def train_legacy_cnc_world_model(
         "forbidden_columns": sorted(FORBIDDEN_COLUMNS),
         "horizons": list(config.horizons),
         "metrics": ["forecast_mse", "failure_auroc", "failure_auprc", "failure_f1_at_0_5"],
+        "operational_metrics": [
+            "event_recall",
+            "median_lead_cycles",
+            "events_missed",
+            "false_alarms_per_1000_cycles",
+        ],
         "threshold_selection": "fixed_0_5_for_failure_head_no_test_tuning",
         "test_set_influenced_model_selection": False,
         "claim_scope": config.claim_scope,

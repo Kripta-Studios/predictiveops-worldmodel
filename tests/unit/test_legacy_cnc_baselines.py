@@ -82,6 +82,7 @@ def test_feature_selection_excludes_forbidden_columns() -> None:
             "sensor_mean": [1.0],
             "CycleToFailure": [2],
             "CycleToFailureNormalized": [0.1],
+            "failure_soon": [1],
             "MillingToolType": [1],
         }
     )
@@ -92,6 +93,7 @@ def test_feature_selection_excludes_forbidden_columns() -> None:
     assert "MillingToolType" in selected
     assert "CycleToFailure" not in selected
     assert "CycleToFailureNormalized" not in selected
+    assert "failure_soon" not in selected
 
 
 def test_legacy_cnc_baseline_smoke(tmp_path: Path) -> None:
@@ -114,4 +116,6 @@ def test_legacy_cnc_baseline_smoke(tmp_path: Path) -> None:
     assert report["leakage_audit"]["passed"]
     assert report["split_counts"] == {"train": 2, "validation": 2, "test": 2}
     assert report["summary"][0]["model"] == "majority"
+    assert "event_recall_mean" in report["summary"][0]
+    assert "failure_soon" not in report["feature_columns_by_set"]["sensor_plus_context"]
     assert (tmp_path / "out" / "metrics.json").exists()
