@@ -1,0 +1,17 @@
+licenses:
+  - dataset_id: legacy_mvp_cnc_milling
+    license_status: not_verified_in_this_repository
+    redistribution: do_not_redistribute_raw_data
+    required_action: verify_owner_terms_before_public_or_commercial_use
+  - dataset_id: legacy_mvp_mvtec_ad
+    license_status: not_verified_in_this_repository
+    redistribution: do_not_redistribute_raw_data
+    required_action: verify_owner_terms_before_public_or_commercial_use
+  - dataset_id: legacy_mvp_cwru_bearing
+    license_status: not_verified_in_this_repository
+    redistribution: do_not_redistribute_raw_data
+    required_action: verify_owner_terms_before_public_or_commercial_use
+  - dataset_id: legacy_mvp_paderborn_bearing
+    license_status: not_verified_in_this_repository
+    redistribution: do_not_redistribute_raw_data
+    required_action: verify_owner_terms_before_public_or_commercial_use

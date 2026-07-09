@@ -3,11 +3,19 @@
 
 ## Adaptive Causal Industrial World Models for Predictive Quality, Maintenance and Production Control
 
-> **Project status:** research and engineering specification. The current repository contains an Industrial JEPA MVP; ForgeWorld is the next-generation project described here.
+> **Project status:** research and engineering specification with an initial protocol scaffold. The prior Industrial JEPA MVP is preserved as an external `legacy_mvp` benchmark reference; ForgeWorld is the next-generation project described here.
 >
 > **Claim policy:** ForgeWorld is a **SOTA-target project**, not a SOTA result. No state-of-the-art claim is permitted until the validation gates in [SOTA claim protocol](#sota-claim-protocol) are satisfied.
 >
 > **Sources last reviewed:** 2026-07-07.
+
+Initial executable scaffolding now includes:
+
+- canonical data-column roles and action/context/outcome validation;
+- grouped split and leakage-audit utilities;
+- a strict `sota_gate.json` evaluator;
+- token and world-model interface contracts;
+- hardware-aware compute planning for CPU/GPU runs with CPU smoke mode.
 
 ---
 

@@ -1,0 +1,32 @@
+{
+  "plan": {
+    "baseline_parallel_jobs": 8,
+    "cpu_workers": 30,
+    "dataloader_workers": 8,
+    "device": "cuda:0",
+    "gpu_memory_fraction": 0.85,
+    "gpu_parallel_jobs": 1,
+    "notes": [
+      "run_one_training_job_per_gpu_unless_memory_profile_proves_more_is_safe",
+      "keep_large_datasets_memory_mapped_or_streamed_on_32gb_ram"
+    ],
+    "precision": "mixed_precision_auto",
+    "seed_parallel_jobs": 3,
+    "smoke_mode": false
+  },
+  "profile": {
+    "cpu_threads": 32,
+    "gpus": [
+      {
+        "backend": "cuda",
+        "index": 0,
+        "name": "NVIDIA GeForce RTX 5070 Ti Laptop GPU",
+        "total_vram_gb": 11.94
+      }
+    ],
+    "has_cuda": true,
+    "platform": "Windows-10-10.0-19041",
+    "python_version": "3.14.2",
+    "system_ram_gb": 31.18
+  }
+}

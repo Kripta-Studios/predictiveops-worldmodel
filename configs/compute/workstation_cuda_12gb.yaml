@@ -1,0 +1,22 @@
+profile_name: workstation_cuda_12gb
+intended_use: local_research_and_cpu_smoke_compatible_experiments
+hardware_hint:
+  cpu_threads: 32
+  system_ram_gb: 32
+  gpu:
+    class: nvidia_cuda
+    vram_gb: 12
+parallel_policy:
+  cpu_workers: 30
+  dataloader_workers: 8
+  baseline_parallel_jobs: 8
+  seed_parallel_jobs: 3
+  gpu_parallel_jobs: 1
+  gpu_memory_fraction: 0.85
+  precision: mixed_precision_auto
+constraints:
+  - Keep CPU smoke mode available for every train/eval command.
+  - Use memory mapping or streaming for large datasets on 32 GB RAM.
+  - Run one training job per 12 GB GPU unless measured memory use proves concurrency is safe.
+  - Parallelize simple baselines and seeds on CPU before increasing neural model scale.
+claim_scope: compute_planning_only_not_benchmark_evidence

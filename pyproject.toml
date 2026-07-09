@@ -1,0 +1,40 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "forgeworld"
+version = "0.1.0"
+description = "Protocol-first industrial world-model research scaffold."
+readme = "README.md"
+requires-python = ">=3.11"
+license = "MIT"
+authors = [{ name = "Kripta Studios" }]
+dependencies = []
+
+[project.optional-dependencies]
+dev = [
+  "mypy>=1.10",
+  "pytest>=8.0",
+  "ruff>=0.6",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+addopts = "-q"
+pythonpath = ["src"]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["B", "E", "F", "I", "SIM", "UP"]
+
+[tool.mypy]
+python_version = "3.11"
+strict = true
+warn_unused_configs = true

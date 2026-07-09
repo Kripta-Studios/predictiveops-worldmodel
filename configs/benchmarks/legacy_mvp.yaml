@@ -1,0 +1,54 @@
+experiment_name: legacy_mvp_reference
+hypothesis: >
+  Preserve the prior Industrial JEPA MVP as a reproducible baseline reference
+  before ForgeWorld changes the data contracts or model interfaces.
+dataset: legacy_mvp_local_reference
+dataset_version: industrial_jepa_mvp_git_54bf4099f36dfbc69e6cc4da76ab6c62499c056d
+split_protocol: inherited_from_legacy_mvp_configs_not_valid_for_new_claims_without_reaudit
+seed: 0
+input_modalities:
+  - sensor
+  - visual
+action_columns:
+  - process_action_t
+context_columns:
+  - asset_or_dataset_context_from_legacy_configs
+outcome_columns:
+  - failure_soon
+  - anomaly_label
+forbidden_columns:
+  - future_wear
+  - cycle_to_failure
+  - final_quality_label
+model:
+  family: legacy_mvp
+  status: external_reference
+  root_env_var: FORGEWORLD_LEGACY_MVP_ROOT
+  expected_default_root: ../industrial_jepa_mvp
+baselines:
+  - persistence_or_naive_sensor_baseline
+  - engineered_sensor_features
+  - visual_pixel_stat_baseline
+  - patchcore_lite
+  - padim_lite
+metrics:
+  - auroc
+  - auprc
+  - lead_time_where_available
+  - false_alarm_rate_where_available
+threshold_selection: inherited_from_legacy_mvp_must_be_reaudited_before_claims
+compute:
+  mode: cpu_smoke_compatible
+claim_scope: >
+  Baseline preservation only. This descriptor is not a benchmark result and does
+  not permit state-of-the-art claims.
+legacy_commands:
+  - python scripts/00_create_dataset_manifest.py
+  - python scripts/15_run_sensor_demo.py --config configs/sensor_jepa/demo_sensor_quick.yaml
+  - python scripts/20_train_sensor_world_model.py --config configs/sensor_jepa/demo_sensor_quick.yaml
+  - python scripts/16_run_visual_demo.py --config configs/visual_jepa/demo_visual_quick.yaml
+  - python scripts/17_run_all_demos.py
+limitations:
+  - External raw data and outputs are not committed in this repository.
+  - Legacy thresholds and splits must pass the new leakage audit before use in reports.
+  - Strong official baselines must be rerun under matched splits before claims.

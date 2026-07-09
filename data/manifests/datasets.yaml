@@ -1,0 +1,41 @@
+datasets:
+  - dataset_id: legacy_mvp_cnc_milling
+    family: sensor
+    status: external_local_reference
+    source: industrial_jepa_mvp/data/manifests/datasets.yaml
+    local_root_env_var: FORGEWORLD_LEGACY_MVP_ROOT
+    legacy_manifest_reported_files_total: 987
+    legacy_manifest_status: implemented
+    checksum_status: pending_import_from_immutable_raw_data
+    raw_data_committed: false
+    claim_scope: baseline_preservation_only
+  - dataset_id: legacy_mvp_mvtec_ad
+    family: visual
+    status: external_local_reference
+    source: industrial_jepa_mvp/data/manifests/datasets.yaml
+    local_root_env_var: FORGEWORLD_LEGACY_MVP_ROOT
+    legacy_manifest_reported_files_total: 6644
+    legacy_manifest_status: implemented
+    checksum_status: pending_import_from_immutable_raw_data
+    raw_data_committed: false
+    claim_scope: baseline_preservation_only
+  - dataset_id: legacy_mvp_cwru_bearing
+    family: sensor
+    status: external_local_reference_partial
+    source: industrial_jepa_mvp/data/manifests/datasets.yaml
+    local_root_env_var: FORGEWORLD_LEGACY_MVP_ROOT
+    legacy_manifest_reported_files_total: 111
+    legacy_manifest_status: partial
+    checksum_status: pending_import_from_immutable_raw_data
+    raw_data_committed: false
+    claim_scope: loader_scaffold_only
+  - dataset_id: legacy_mvp_paderborn_bearing
+    family: sensor
+    status: external_local_reference_partial
+    source: industrial_jepa_mvp/data/manifests/datasets.yaml
+    local_root_env_var: FORGEWORLD_LEGACY_MVP_ROOT
+    legacy_manifest_reported_files_total: 2624
+    legacy_manifest_status: partial
+    checksum_status: pending_import_from_immutable_raw_data
+    raw_data_committed: false
+    claim_scope: loader_scaffold_only
