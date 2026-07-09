@@ -13,6 +13,11 @@ authors = [{ name = "Kripta Studios" }]
 dependencies = []
 
 [project.optional-dependencies]
+baselines = [
+  "numpy>=2.0",
+  "pandas>=2.0",
+  "scikit-learn>=1.5",
+]
 dev = [
   "mypy>=1.10",
   "pytest>=8.0",

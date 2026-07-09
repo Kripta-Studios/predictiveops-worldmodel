@@ -17,6 +17,7 @@ Initial executable scaffolding now includes:
 - token and world-model interface contracts;
 - hardware-aware compute planning for CPU/GPU runs with CPU smoke mode.
 - Priority A dataset manifest and owner-respecting download/request instructions.
+- a leakage-guarded CNC simple-baseline runner for majority, logistic, and tree baselines.
 
 ---
 
