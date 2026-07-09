@@ -1,0 +1,126 @@
+{
+  "action_columns": [],
+  "checkpoint_path": "outputs\\world_models\\legacy_cnc_sensor_jepa_multiseed\\seed_1\\checkpoint.pt",
+  "claim_scope": "experimental_world_model_smoke_not_claim_bearing",
+  "context_columns": [
+    "MillingToolType",
+    "ADOC",
+    "RDOC",
+    "HardnessMean",
+    "ToolHolderLength"
+  ],
+  "context_count": 5,
+  "dataset": "legacy_mvp_cnc_windows",
+  "dataset_version": "industrial_jepa_mvp_54bf4099",
+  "device": "cuda:0",
+  "elapsed_seconds": 0.11326766014099121,
+  "experiment_name": "legacy_cnc_deterministic_sensor_jepa_world_model",
+  "feature_count": 120,
+  "forbidden_columns": [
+    "CycleToFailure",
+    "CycleToFailureNormalized",
+    "wear_class",
+    "wear_class_name"
+  ],
+  "history": [
+    {
+      "epoch": 1,
+      "failure_loss": 0.6795494913125364,
+      "forecast_loss": 1.025732611471217,
+      "latent_loss": 0.006710157706084539,
+      "loss": 0.33109826314286644
+    },
+    {
+      "epoch": 2,
+      "failure_loss": 0.5919047863627502,
+      "forecast_loss": 1.0235023670493975,
+      "latent_loss": 0.007414343725112911,
+      "loss": 0.32248041504307795
+    },
+    {
+      "epoch": 3,
+      "failure_loss": 0.5355921776903535,
+      "forecast_loss": 1.017707629278157,
+      "latent_loss": 0.010178110097511354,
+      "loss": 0.3181642273016143
+    },
+    {
+      "epoch": 4,
+      "failure_loss": 0.5231878224172091,
+      "forecast_loss": 1.0066800703082168,
+      "latent_loss": 0.011162279335306285,
+      "loss": 0.3151510811572419
+    }
+  ],
+  "horizons": [
+    1,
+    3
+  ],
+  "hypothesis": "A deterministic context-conditioned multi-horizon sensor world model can predict future CNC feature windows and provide a failure-soon readout under the audited held-out-tool split.",
+  "input_modalities": [
+    "engineered_sensor_features",
+    "static_context"
+  ],
+  "limitations": [
+    "This is an experimental deterministic model, not validated production behavior.",
+    "Static process settings are context; no action-conditioned or causal claim is made.",
+    "Failure labels are used only as supervised train outcomes/readouts, not inputs.",
+    "Perfect metrics, if present, require manual leakage/protocol review."
+  ],
+  "metrics": [
+    "forecast_mse",
+    "failure_auroc",
+    "failure_auprc",
+    "failure_f1_at_0_5"
+  ],
+  "outcome_columns": [
+    "failure_soon_from_cycle_to_failure_for_training_head"
+  ],
+  "seed": 1,
+  "split_metrics": {
+    "test": {
+      "failure_auprc": 0.5288349712200558,
+      "failure_auroc": 0.8161387983232418,
+      "failure_f1_at_0_5": 0.23376623376623376,
+      "failure_rate": 0.07755102217197418,
+      "forecast_mse": 0.841681718826294,
+      "samples": 490
+    },
+    "train": {
+      "failure_auprc": 0.8485603444672267,
+      "failure_auroc": 0.9430798468221308,
+      "failure_f1_at_0_5": 0.8068965517241379,
+      "failure_rate": 0.15789473056793213,
+      "forecast_mse": 0.9974335432052612,
+      "samples": 1026
+    },
+    "validation": {
+      "failure_auprc": 0.9874339310768996,
+      "failure_auroc": 0.9947033898305084,
+      "failure_f1_at_0_5": 0.7766990291262136,
+      "failure_rate": 0.2531645596027374,
+      "forecast_mse": 1.970078468322754,
+      "samples": 158
+    }
+  },
+  "split_protocol": "legacy_held_out_tool_manifest",
+  "status": "experimental",
+  "test_set_influenced_model_selection": false,
+  "threshold_selection": "fixed_0_5_for_failure_head_no_test_tuning",
+  "warnings": [],
+  "worker_plan": {
+    "baseline_parallel_jobs": 8,
+    "cpu_workers": 30,
+    "dataloader_workers": 8,
+    "device": "cuda:0",
+    "gpu_memory_fraction": 0.85,
+    "gpu_parallel_jobs": 1,
+    "notes": [
+      "run_one_training_job_per_gpu_unless_memory_profile_proves_more_is_safe",
+      "keep_large_datasets_memory_mapped_or_streamed_on_32gb_ram"
+    ],
+    "precision": "mixed_precision_auto",
+    "seed_parallel_jobs": 3,
+    "smoke_mode": false
+  }
+}

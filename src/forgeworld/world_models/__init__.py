@@ -6,5 +6,18 @@ from forgeworld.world_models.contracts import (
     SurpriseBreakdown,
     WorldModel,
 )
+from forgeworld.world_models.sensor_jepa import (
+    DeterministicSensorJepa,
+    LegacyCncWorldModelConfig,
+    train_legacy_cnc_world_model,
+)
 
-__all__ = ["LatentState", "PredictiveDistribution", "SurpriseBreakdown", "WorldModel"]
+__all__ = [
+    "DeterministicSensorJepa",
+    "LatentState",
+    "LegacyCncWorldModelConfig",
+    "PredictiveDistribution",
+    "SurpriseBreakdown",
+    "WorldModel",
+    "train_legacy_cnc_world_model",
+]

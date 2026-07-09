@@ -1,0 +1,105 @@
+{
+  "claim_scope": "experimental_world_model_multiseed_not_claim_bearing",
+  "dataset": "legacy_mvp_cnc_windows",
+  "dataset_version": "industrial_jepa_mvp_54bf4099",
+  "device": "cuda:0",
+  "experiment_name": "legacy_cnc_deterministic_sensor_jepa_world_model_multiseed",
+  "horizons": [
+    1,
+    3
+  ],
+  "limitations": [
+    "This is an experimental deterministic model, not validated production behavior.",
+    "Static process settings are context; no action-conditioned or causal claim is made.",
+    "Failure labels are used only as supervised train outcomes/readouts, not inputs.",
+    "Perfect metrics, if present, require manual leakage/protocol review."
+  ],
+  "seed_count": 3,
+  "seed_reports": [
+    {
+      "checkpoint_path": "outputs\\world_models\\legacy_cnc_sensor_jepa_multiseed\\seed_0\\checkpoint.pt",
+      "final_train_loss": 0.3165163831171701,
+      "seed": 0,
+      "test_metrics": {
+        "failure_auprc": 0.5349112001025199,
+        "failure_auroc": 0.8238821611551002,
+        "failure_f1_at_0_5": 0.22784810126582278,
+        "failure_rate": 0.07755102217197418,
+        "forecast_mse": 0.8316483497619629,
+        "samples": 490
+      }
+    },
+    {
+      "checkpoint_path": "outputs\\world_models\\legacy_cnc_sensor_jepa_multiseed\\seed_1\\checkpoint.pt",
+      "final_train_loss": 0.3151510811572419,
+      "seed": 1,
+      "test_metrics": {
+        "failure_auprc": 0.5288349712200558,
+        "failure_auroc": 0.8161387983232418,
+        "failure_f1_at_0_5": 0.23376623376623376,
+        "failure_rate": 0.07755102217197418,
+        "forecast_mse": 0.841681718826294,
+        "samples": 490
+      }
+    },
+    {
+      "checkpoint_path": "outputs\\world_models\\legacy_cnc_sensor_jepa_multiseed\\seed_2\\checkpoint.pt",
+      "final_train_loss": 0.3220939976662455,
+      "seed": 2,
+      "test_metrics": {
+        "failure_auprc": 0.47336546861455975,
+        "failure_auroc": 0.8606194690265486,
+        "failure_f1_at_0_5": 0.4444444444444444,
+        "failure_rate": 0.07755102217197418,
+        "forecast_mse": 0.8455787301063538,
+        "samples": 490
+      }
+    }
+  ],
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "split_protocol": "legacy_held_out_tool_manifest",
+  "status": "experimental",
+  "test_set_influenced_model_selection": false,
+  "test_summary": {
+    "failure_auprc": {
+      "mean": 0.5123705466457118,
+      "std": 0.033915737107133914
+    },
+    "failure_auroc": {
+      "mean": 0.8335468095016302,
+      "std": 0.023763135047812387
+    },
+    "failure_f1_at_0_5": {
+      "mean": 0.30201959315883364,
+      "std": 0.12337902889417375
+    },
+    "forecast_mse": {
+      "mean": 0.8396362662315369,
+      "std": 0.007186917376239741
+    }
+  },
+  "threshold_selection": "fixed_0_5_for_failure_head_no_test_tuning",
+  "validation_summary": {
+    "failure_auprc": {
+      "mean": 0.9275029550347433,
+      "std": 0.08794134671858142
+    },
+    "failure_auroc": {
+      "mean": 0.9717514124293786,
+      "std": 0.03302797810841153
+    },
+    "failure_f1_at_0_5": {
+      "mean": 0.6750097755456129,
+      "std": 0.09355401927754299
+    },
+    "forecast_mse": {
+      "mean": 1.9653943379720051,
+      "std": 0.0220460542742549
+    }
+  },
+  "warnings": []
+}

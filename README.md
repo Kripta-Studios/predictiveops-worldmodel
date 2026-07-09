@@ -18,6 +18,8 @@ Initial executable scaffolding now includes:
 - hardware-aware compute planning for CPU/GPU runs with CPU smoke mode.
 - Priority A dataset manifest and owner-respecting download/request instructions.
 - a leakage-guarded CNC simple-baseline runner for majority, logistic, and tree baselines.
+- an experimental deterministic multi-horizon Sensor-JEPA world-model trainer for the audited CNC data.
+- a comparison report path that records when simple baselines have higher metrics than the neural model.
 
 ---
 

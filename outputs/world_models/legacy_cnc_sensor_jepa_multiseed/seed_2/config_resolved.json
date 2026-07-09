@@ -1,0 +1,26 @@
+{
+  "batch_size": 256,
+  "claim_scope": "experimental_world_model_smoke_not_claim_bearing",
+  "context_dim": 32,
+  "ema_decay": 0.98,
+  "embedding_dim": 64,
+  "epochs": 4,
+  "failure_horizon_cycles": 10,
+  "failure_loss_weight": 0.1,
+  "forecast_loss_weight": 0.25,
+  "hidden_dim": 128,
+  "horizon_dim": 16,
+  "horizons": [
+    1,
+    3
+  ],
+  "learning_rate": 0.001,
+  "manifest_csv": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\manifests\\cnc_windows.csv",
+  "output_dir": "outputs\\world_models\\legacy_cnc_sensor_jepa_multiseed\\seed_2",
+  "raw_feature_csv": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\sensor\\cnc_milling\\FeatureAndMetadata_Milling.csv",
+  "seed": 2,
+  "stride": 1,
+  "unsafe_debug": false,
+  "weight_decay": 0.0001,
+  "window_length": 8
+}
