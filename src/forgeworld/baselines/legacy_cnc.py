@@ -3,15 +3,15 @@
 from __future__ import annotations
 
 import json
-from dataclasses import asdict, dataclass, field
+from collections.abc import Iterable, Mapping
+from dataclasses import asdict, dataclass
 from pathlib import Path
 from statistics import mean, stdev
-from typing import Any, Iterable
+from typing import Any
 
 from forgeworld.data.datasets.legacy_cnc import LegacyCncWindowsAdapter
 from forgeworld.evaluation.lead_time import event_lead_time_metrics
 from forgeworld.runtime.compute import WorkerPlan
-
 
 META_COLUMNS = {
     "FileName",
@@ -60,6 +60,7 @@ class LegacyCncBaselineConfig:
     seeds: tuple[int, ...] = (0, 1, 2)
     model_names: tuple[str, ...] = ("majority", "logistic_regression", "random_forest")
     feature_sets: tuple[str, ...] = ("context_only", "sensor_only", "sensor_plus_context")
+    split_protocol: str = "legacy_held_out_tool_manifest"
     claim_scope: str = "baseline_smoke_not_claim_bearing"
     unsafe_debug: bool = False
 
@@ -151,15 +152,85 @@ def select_feature_columns(df: Any, feature_set: str) -> list[str]:
     return selected
 
 
-def _split_masks_from_manifest(df: Any, manifest_csv: Path) -> dict[str, Any]:
+def _split_masks_from_manifest(
+    df: Any, manifest_csv: Path
+) -> tuple[dict[str, Any], dict[str, Any]]:
     adapter = LegacyCncWindowsAdapter(manifest_csv)
     split_manifest = adapter.build_grouped_splits()
     group_to_split = split_manifest.group_to_split
     tool_split = df["ToolIndex"].astype(str).map(group_to_split)
-    return {
+    masks = {
         "train": tool_split == "train",
         "validation": tool_split == "validation",
         "test": tool_split == "test",
+    }
+    return masks, split_manifest.to_dict()
+
+
+def _split_masks_from_cutting_condition(df: Any) -> tuple[dict[str, Any], dict[str, Any]]:
+    if "ADOC" not in df.columns or "RDOC" not in df.columns:
+        raise RuntimeError("held_out_cutting_condition split requires ADOC and RDOC columns.")
+    groups = (df["ADOC"].astype(str) + "_rdoc_" + df["RDOC"].astype(str)).rename(
+        "cutting_condition"
+    )
+    unique_groups = sorted(groups.dropna().unique().tolist())
+    if len(unique_groups) < 3:
+        raise RuntimeError(
+            f"held_out_cutting_condition requires at least 3 groups, found {len(unique_groups)}."
+        )
+    # Deterministic hardest split: train on early sorted groups, validate/test on held-out groups.
+    group_to_split = {
+        group: (
+            "train"
+            if index < len(unique_groups) - 2
+            else "validation"
+            if index == len(unique_groups) - 2
+            else "test"
+        )
+        for index, group in enumerate(unique_groups)
+    }
+    split = groups.map(group_to_split)
+    masks = {
+        "train": split == "train",
+        "validation": split == "validation",
+        "test": split == "test",
+    }
+    assignments = [
+        {"record_index": int(index), "split": str(group_to_split[group]), "group": str(group)}
+        for index, group in enumerate(groups)
+    ]
+    manifest = {
+        "split_protocol": "held_out_cutting_condition",
+        "group_key": "ADOC_RDOC",
+        "groups_by_split": {
+            split_name: tuple(
+                group for group in unique_groups if group_to_split[group] == split_name
+            )
+            for split_name in ("train", "validation", "test")
+        },
+        "counts": {split_name: int(mask.sum()) for split_name, mask in masks.items()},
+        "assignments": assignments,
+    }
+    return masks, manifest
+
+
+def _build_split_masks(
+    df: Any,
+    config: LegacyCncBaselineConfig,
+) -> tuple[dict[str, Any], dict[str, Any]]:
+    if config.split_protocol == "legacy_held_out_tool_manifest":
+        return _split_masks_from_manifest(df, config.manifest_csv)
+    if config.split_protocol == "held_out_cutting_condition":
+        return _split_masks_from_cutting_condition(df)
+    raise ValueError(f"Unknown split protocol: {config.split_protocol}")
+
+
+def _compact_split_manifest(split_manifest: Mapping[str, Any]) -> dict[str, Any]:
+    return {
+        "split_protocol": split_manifest["split_protocol"],
+        "group_key": split_manifest["group_key"],
+        "counts": split_manifest["counts"],
+        "groups_by_split": split_manifest["groups_by_split"],
     }
 
 
@@ -176,7 +247,10 @@ def _build_model(model_name: str, seed: int, n_jobs: int) -> Any:
         StandardScaler,
     ) = _require_baseline_dependencies()
     if model_name == "majority":
-        return make_pipeline(SimpleImputer(strategy="median"), DummyClassifier(strategy="most_frequent"))
+        return make_pipeline(
+            SimpleImputer(strategy="median"),
+            DummyClassifier(strategy="most_frequent"),
+        )
     if model_name == "logistic_regression":
         return make_pipeline(
             SimpleImputer(strategy="median"),
@@ -259,11 +333,17 @@ def _aggregate(rows: Iterable[dict[str, Any]]) -> list[dict[str, Any]]:
         grouped.setdefault((row["model"], row["feature_set"]), []).append(row)
     summaries: list[dict[str, Any]] = []
     for (model, feature_set), values in sorted(grouped.items()):
-        summary: dict[str, Any] = {"model": model, "feature_set": feature_set, "seeds": len(values)}
+        summary: dict[str, Any] = {
+            "model": model,
+            "feature_set": feature_set,
+            "seeds": len(values),
+        }
         for metric in ("accuracy", "f1", "auroc", "auprc"):
             present = [value[metric] for value in values if value[metric] is not None]
             summary[f"{metric}_mean"] = float(mean(present)) if present else None
-            summary[f"{metric}_std"] = float(stdev(present)) if len(present) > 1 else 0.0 if present else None
+            summary[f"{metric}_std"] = (
+                float(stdev(present)) if len(present) > 1 else 0.0 if present else None
+            )
         for metric in (
             "event_recall",
             "median_lead_cycles",
@@ -295,7 +375,7 @@ def run_legacy_cnc_baselines(
     df = load_legacy_cnc_feature_table(config.raw_feature_csv)
     df = df.dropna(subset=["ToolIndex", "CycleToFailure"]).copy()
     df["failure_soon"] = (df["CycleToFailure"] <= config.failure_horizon_cycles).astype(int)
-    masks = _split_masks_from_manifest(df, config.manifest_csv)
+    masks, split_manifest = _build_split_masks(df, config)
     split_counts = {split: int(mask.sum()) for split, mask in masks.items()}
     if min(split_counts.values()) <= 0:
         raise RuntimeError(f"Empty split after applying manifest group split: {split_counts}")
@@ -338,6 +418,12 @@ def run_legacy_cnc_baselines(
         for row in rows
         if row["accuracy"] == 1.0 and row["auroc"] == 1.0
     ]
+    config.output_dir.mkdir(parents=True, exist_ok=True)
+    split_manifest_path = config.output_dir / "split_manifest.json"
+    split_manifest_path.write_text(
+        json.dumps(split_manifest, indent=2, sort_keys=True),
+        encoding="utf-8",
+    )
     report = {
         "experiment_name": "legacy_cnc_failure_soon_simple_baselines",
         "hypothesis": (
@@ -346,7 +432,7 @@ def run_legacy_cnc_baselines(
         ),
         "dataset": adapter.dataset_id,
         "dataset_version": adapter.version,
-        "split_protocol": "legacy_held_out_tool_manifest",
+        "split_protocol": config.split_protocol,
         "seeds": list(config.seeds),
         "failure_horizon_cycles": config.failure_horizon_cycles,
         "forbidden_columns": sorted(FORBIDDEN_COLUMNS),
@@ -361,12 +447,23 @@ def run_legacy_cnc_baselines(
         "claim_scope": config.claim_scope,
         "test_set_influenced_model_selection": False,
         "split_counts": split_counts,
+        "split_manifest": _compact_split_manifest(split_manifest),
+        "split_manifest_path": str(split_manifest_path),
         "feature_columns_by_set": feature_columns_by_set,
         "worker_plan": worker_plan.to_dict(),
         "leakage_audit": leakage.to_dict(),
         "runs": rows,
         "summary": summary,
         "warnings": warnings,
+        "what_this_result_does_not_prove": [
+            "It does not prove production readiness or external generalization.",
+            (
+                "It does not prove action-conditioned or causal modeling; "
+                "legacy process settings are context."
+            ),
+            "It does not prove a neural world model adds value over engineered sensor features.",
+            "It does not validate threshold selection beyond the fixed 0.5 smoke setting.",
+        ],
         "limitations": [
             "This is a row-level smoke baseline on engineered feature rows, not a full JEPA run.",
             "The legacy CNC manifest provides context only; no verified action claims are made.",
@@ -374,7 +471,6 @@ def run_legacy_cnc_baselines(
             "Perfect smoke metrics must be treated as a leakage/protocol review trigger.",
         ],
     }
-    config.output_dir.mkdir(parents=True, exist_ok=True)
     (config.output_dir / "metrics.json").write_text(
         json.dumps(report, indent=2, sort_keys=True),
         encoding="utf-8",

@@ -1,0 +1,24 @@
+{
+  "claim_scope": "baseline_smoke_not_claim_bearing",
+  "failure_horizon_cycles": 10,
+  "feature_sets": [
+    "context_only",
+    "sensor_only",
+    "sensor_plus_context"
+  ],
+  "manifest_csv": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\manifests\\cnc_windows.csv",
+  "model_names": [
+    "majority",
+    "logistic_regression",
+    "random_forest"
+  ],
+  "output_dir": "outputs\\baselines\\legacy_cnc_failure_soon_held_out_cutting_condition",
+  "raw_feature_csv": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\sensor\\cnc_milling\\FeatureAndMetadata_Milling.csv",
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "split_protocol": "held_out_cutting_condition",
+  "unsafe_debug": false
+}

@@ -5,8 +5,8 @@ from pathlib import Path
 
 from forgeworld.baselines.legacy_cnc import (
     LegacyCncBaselineConfig,
-    select_feature_columns,
     run_legacy_cnc_baselines,
+    select_feature_columns,
 )
 from forgeworld.runtime.compute import ComputeProfile, plan_workers
 
@@ -117,5 +117,44 @@ def test_legacy_cnc_baseline_smoke(tmp_path: Path) -> None:
     assert report["split_counts"] == {"train": 2, "validation": 2, "test": 2}
     assert report["summary"][0]["model"] == "majority"
     assert "event_recall_mean" in report["summary"][0]
+    assert report["what_this_result_does_not_prove"]
     assert "failure_soon" not in report["feature_columns_by_set"]["sensor_plus_context"]
     assert (tmp_path / "out" / "metrics.json").exists()
+    assert (tmp_path / "out" / "split_manifest.json").exists()
+
+
+def test_legacy_cnc_baseline_held_out_cutting_condition_split(tmp_path: Path) -> None:
+    raw = tmp_path / "FeatureAndMetadata_Milling.csv"
+    manifest = tmp_path / "cnc_windows.csv"
+    _write_raw_feature_table(raw)
+    _write_manifest(manifest)
+
+    # Add enough ADOC/RDOC combinations for a hard grouped condition split.
+    text = raw.read_text(encoding="utf-8")
+    text = text.replace("0.3;1.2;b1;1;0;2;1;5;8;", "0.3;1.2;b1;1;0;2;1;10;4.5;")
+    text = text.replace("0.4;1.3;b2;2;0;2;1;5;8;", "0.4;1.3;b2;2;0;2;1;10;4.5;")
+    text = text.replace("0.5;1.4;c1;1;0;3;1;5;8;", "0.5;1.4;c1;1;0;3;1;10;8;")
+    text = text.replace("0.6;1.5;c2;2;0;3;1;5;8;", "0.6;1.5;c2;2;0;3;1;10;8;")
+    raw.write_text(text, encoding="utf-8")
+
+    config = LegacyCncBaselineConfig(
+        raw_feature_csv=raw,
+        manifest_csv=manifest,
+        output_dir=tmp_path / "hard",
+        seeds=(0,),
+        model_names=("majority",),
+        feature_sets=("sensor_plus_context",),
+        split_protocol="held_out_cutting_condition",
+    )
+    plan = plan_workers(ComputeProfile(cpu_threads=4, system_ram_gb=8), smoke_mode=True)
+
+    report = run_legacy_cnc_baselines(config, plan)
+
+    assert report["split_protocol"] == "held_out_cutting_condition"
+    assert report["split_counts"]["train"] > 0
+    assert report["split_counts"]["validation"] > 0
+    assert report["split_counts"]["test"] > 0
+    groups = report["split_manifest"]["groups_by_split"]
+    assert set(groups["train"]).isdisjoint(groups["validation"])
+    assert set(groups["train"]).isdisjoint(groups["test"])
+    assert (tmp_path / "hard" / "split_manifest.json").exists()

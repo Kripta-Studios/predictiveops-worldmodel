@@ -35,6 +35,11 @@ def main() -> int:
     )
     parser.add_argument("--failure-horizon-cycles", type=int, default=10)
     parser.add_argument("--seeds", default="0,1,2")
+    parser.add_argument(
+        "--split-protocol",
+        choices=("legacy_held_out_tool_manifest", "held_out_cutting_condition"),
+        default="legacy_held_out_tool_manifest",
+    )
     parser.add_argument("--smoke", action="store_true", help="Use CPU smoke-mode worker settings.")
     parser.add_argument("--unsafe-debug", action="store_true")
     args = parser.parse_args()
@@ -44,11 +49,14 @@ def main() -> int:
     profile = detect_compute_profile()
     worker_plan = plan_workers(profile, smoke_mode=args.smoke)
     config = LegacyCncBaselineConfig(
-        raw_feature_csv=data_root / "raw" / "sensor" / "cnc_milling" / "FeatureAndMetadata_Milling.csv",
+        raw_feature_csv=(
+            data_root / "raw" / "sensor" / "cnc_milling" / "FeatureAndMetadata_Milling.csv"
+        ),
         manifest_csv=data_root / "manifests" / "cnc_windows.csv",
         output_dir=args.output_dir,
         failure_horizon_cycles=args.failure_horizon_cycles,
         seeds=seeds,
+        split_protocol=args.split_protocol,
         unsafe_debug=args.unsafe_debug,
     )
     report = run_legacy_cnc_baselines(config, worker_plan)

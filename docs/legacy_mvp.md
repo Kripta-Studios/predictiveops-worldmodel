@@ -42,6 +42,26 @@ classifies the legacy process settings such as `FeedRate`, `ToolRotation`,
 `ADOC`, and `RDOC` as context, not actions, because the manifest does not prove
 time-aligned controller commands.
 
+## CNC Baseline Protocols
+
+The simple baseline runner now supports two grouped split protocols:
+
+- `legacy_held_out_tool_manifest`: preserves the legacy held-out-tool manifest.
+- `held_out_cutting_condition`: holds out complete `ADOC`/`RDOC` cutting-condition
+  groups to test whether engineered sensor features generalize beyond seen static
+  process context.
+
+Example smoke run:
+
+```powershell
+python scripts/benchmarks/run_legacy_cnc_baselines.py --smoke --split-protocol held_out_cutting_condition --output-dir outputs/baselines/legacy_cnc_failure_soon_held_out_cutting_condition
+```
+
+The generated `metrics.json` summarizes metrics and groups; the full row-level
+split assignments are written separately to `split_manifest.json`. This result
+does not prove causal action modeling, because `ADOC` and `RDOC` remain context
+columns in this legacy data.
+
 ## Next Falsifiable Hypothesis
 
 If the legacy CNC and MVTec tasks are rerun through the new schema, split, and
