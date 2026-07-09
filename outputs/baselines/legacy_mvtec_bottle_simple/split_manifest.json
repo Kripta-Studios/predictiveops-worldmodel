@@ -1,0 +1,1771 @@
+{
+  "assignments": [
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\000.png",
+      "record_index": 0,
+      "split": "train"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\001.png",
+      "record_index": 1,
+      "split": "train"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\002.png",
+      "record_index": 2,
+      "split": "train"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\003.png",
+      "record_index": 3,
+      "split": "train"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\004.png",
+      "record_index": 4,
+      "split": "train"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\005.png",
+      "record_index": 5,
+      "split": "train"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\006.png",
+      "record_index": 6,
+      "split": "train"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\007.png",
+      "record_index": 7,
+      "split": "train"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\008.png",
+      "record_index": 8,
+      "split": "train"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\009.png",
+      "record_index": 9,
+      "split": "train"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\010.png",
+      "record_index": 10,
+      "split": "train"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\011.png",
+      "record_index": 11,
+      "split": "train"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\012.png",
+      "record_index": 12,
+      "split": "train"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\013.png",
+      "record_index": 13,
+      "split": "train"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\014.png",
+      "record_index": 14,
+      "split": "train"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\015.png",
+      "record_index": 15,
+      "split": "train"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\016.png",
+      "record_index": 16,
+      "split": "train"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\017.png",
+      "record_index": 17,
+      "split": "train"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\018.png",
+      "record_index": 18,
+      "split": "train"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\019.png",
+      "record_index": 19,
+      "split": "train"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\020.png",
+      "record_index": 20,
+      "split": "train"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\021.png",
+      "record_index": 21,
+      "split": "train"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\022.png",
+      "record_index": 22,
+      "split": "train"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\023.png",
+      "record_index": 23,
+      "split": "train"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\024.png",
+      "record_index": 24,
+      "split": "train"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\025.png",
+      "record_index": 25,
+      "split": "train"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\026.png",
+      "record_index": 26,
+      "split": "train"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\027.png",
+      "record_index": 27,
+      "split": "train"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\028.png",
+      "record_index": 28,
+      "split": "train"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\029.png",
+      "record_index": 29,
+      "split": "train"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\030.png",
+      "record_index": 30,
+      "split": "train"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\031.png",
+      "record_index": 31,
+      "split": "train"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\032.png",
+      "record_index": 32,
+      "split": "train"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\033.png",
+      "record_index": 33,
+      "split": "train"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\034.png",
+      "record_index": 34,
+      "split": "train"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\035.png",
+      "record_index": 35,
+      "split": "train"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\036.png",
+      "record_index": 36,
+      "split": "train"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\037.png",
+      "record_index": 37,
+      "split": "train"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\038.png",
+      "record_index": 38,
+      "split": "train"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\039.png",
+      "record_index": 39,
+      "split": "train"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\040.png",
+      "record_index": 40,
+      "split": "train"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\041.png",
+      "record_index": 41,
+      "split": "train"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\042.png",
+      "record_index": 42,
+      "split": "train"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\043.png",
+      "record_index": 43,
+      "split": "train"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\044.png",
+      "record_index": 44,
+      "split": "train"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\045.png",
+      "record_index": 45,
+      "split": "train"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\046.png",
+      "record_index": 46,
+      "split": "train"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\047.png",
+      "record_index": 47,
+      "split": "train"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\048.png",
+      "record_index": 48,
+      "split": "train"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\049.png",
+      "record_index": 49,
+      "split": "train"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\050.png",
+      "record_index": 50,
+      "split": "train"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\051.png",
+      "record_index": 51,
+      "split": "train"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\052.png",
+      "record_index": 52,
+      "split": "train"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\053.png",
+      "record_index": 53,
+      "split": "train"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\054.png",
+      "record_index": 54,
+      "split": "train"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\055.png",
+      "record_index": 55,
+      "split": "train"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\056.png",
+      "record_index": 56,
+      "split": "train"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\057.png",
+      "record_index": 57,
+      "split": "train"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\058.png",
+      "record_index": 58,
+      "split": "train"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\059.png",
+      "record_index": 59,
+      "split": "train"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\060.png",
+      "record_index": 60,
+      "split": "train"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\061.png",
+      "record_index": 61,
+      "split": "train"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\062.png",
+      "record_index": 62,
+      "split": "train"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\063.png",
+      "record_index": 63,
+      "split": "train"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\064.png",
+      "record_index": 64,
+      "split": "train"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\065.png",
+      "record_index": 65,
+      "split": "train"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\066.png",
+      "record_index": 66,
+      "split": "train"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\067.png",
+      "record_index": 67,
+      "split": "train"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\068.png",
+      "record_index": 68,
+      "split": "train"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\069.png",
+      "record_index": 69,
+      "split": "train"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\070.png",
+      "record_index": 70,
+      "split": "train"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\071.png",
+      "record_index": 71,
+      "split": "train"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\072.png",
+      "record_index": 72,
+      "split": "train"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\073.png",
+      "record_index": 73,
+      "split": "train"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\074.png",
+      "record_index": 74,
+      "split": "train"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\075.png",
+      "record_index": 75,
+      "split": "train"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\076.png",
+      "record_index": 76,
+      "split": "train"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\077.png",
+      "record_index": 77,
+      "split": "train"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\078.png",
+      "record_index": 78,
+      "split": "train"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\079.png",
+      "record_index": 79,
+      "split": "train"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\080.png",
+      "record_index": 80,
+      "split": "train"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\081.png",
+      "record_index": 81,
+      "split": "train"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\082.png",
+      "record_index": 82,
+      "split": "train"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\083.png",
+      "record_index": 83,
+      "split": "train"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\084.png",
+      "record_index": 84,
+      "split": "train"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\085.png",
+      "record_index": 85,
+      "split": "train"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\086.png",
+      "record_index": 86,
+      "split": "train"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\087.png",
+      "record_index": 87,
+      "split": "train"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\088.png",
+      "record_index": 88,
+      "split": "train"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\089.png",
+      "record_index": 89,
+      "split": "train"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\090.png",
+      "record_index": 90,
+      "split": "train"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\091.png",
+      "record_index": 91,
+      "split": "train"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\092.png",
+      "record_index": 92,
+      "split": "train"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\093.png",
+      "record_index": 93,
+      "split": "train"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\094.png",
+      "record_index": 94,
+      "split": "train"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\095.png",
+      "record_index": 95,
+      "split": "train"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\096.png",
+      "record_index": 96,
+      "split": "train"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\097.png",
+      "record_index": 97,
+      "split": "train"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\098.png",
+      "record_index": 98,
+      "split": "train"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\099.png",
+      "record_index": 99,
+      "split": "train"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\100.png",
+      "record_index": 100,
+      "split": "train"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\101.png",
+      "record_index": 101,
+      "split": "train"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\102.png",
+      "record_index": 102,
+      "split": "train"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\103.png",
+      "record_index": 103,
+      "split": "train"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\104.png",
+      "record_index": 104,
+      "split": "train"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\105.png",
+      "record_index": 105,
+      "split": "train"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\106.png",
+      "record_index": 106,
+      "split": "train"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\107.png",
+      "record_index": 107,
+      "split": "train"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\108.png",
+      "record_index": 108,
+      "split": "train"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\109.png",
+      "record_index": 109,
+      "split": "train"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\110.png",
+      "record_index": 110,
+      "split": "train"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\111.png",
+      "record_index": 111,
+      "split": "train"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\112.png",
+      "record_index": 112,
+      "split": "train"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\113.png",
+      "record_index": 113,
+      "split": "train"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\114.png",
+      "record_index": 114,
+      "split": "train"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\115.png",
+      "record_index": 115,
+      "split": "train"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\116.png",
+      "record_index": 116,
+      "split": "train"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\117.png",
+      "record_index": 117,
+      "split": "train"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\118.png",
+      "record_index": 118,
+      "split": "train"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\119.png",
+      "record_index": 119,
+      "split": "train"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\120.png",
+      "record_index": 120,
+      "split": "train"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\121.png",
+      "record_index": 121,
+      "split": "train"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\122.png",
+      "record_index": 122,
+      "split": "train"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\123.png",
+      "record_index": 123,
+      "split": "train"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\124.png",
+      "record_index": 124,
+      "split": "train"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\125.png",
+      "record_index": 125,
+      "split": "train"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\126.png",
+      "record_index": 126,
+      "split": "train"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\127.png",
+      "record_index": 127,
+      "split": "train"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\128.png",
+      "record_index": 128,
+      "split": "train"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\129.png",
+      "record_index": 129,
+      "split": "train"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\130.png",
+      "record_index": 130,
+      "split": "train"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\131.png",
+      "record_index": 131,
+      "split": "train"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\132.png",
+      "record_index": 132,
+      "split": "train"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\133.png",
+      "record_index": 133,
+      "split": "train"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\134.png",
+      "record_index": 134,
+      "split": "train"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\135.png",
+      "record_index": 135,
+      "split": "train"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\136.png",
+      "record_index": 136,
+      "split": "train"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\137.png",
+      "record_index": 137,
+      "split": "train"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\138.png",
+      "record_index": 138,
+      "split": "train"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\139.png",
+      "record_index": 139,
+      "split": "train"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\140.png",
+      "record_index": 140,
+      "split": "train"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\141.png",
+      "record_index": 141,
+      "split": "train"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\142.png",
+      "record_index": 142,
+      "split": "train"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\143.png",
+      "record_index": 143,
+      "split": "train"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\144.png",
+      "record_index": 144,
+      "split": "train"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\145.png",
+      "record_index": 145,
+      "split": "train"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\146.png",
+      "record_index": 146,
+      "split": "train"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\147.png",
+      "record_index": 147,
+      "split": "train"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\148.png",
+      "record_index": 148,
+      "split": "train"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\149.png",
+      "record_index": 149,
+      "split": "train"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\150.png",
+      "record_index": 150,
+      "split": "train"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\151.png",
+      "record_index": 151,
+      "split": "train"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\152.png",
+      "record_index": 152,
+      "split": "train"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\153.png",
+      "record_index": 153,
+      "split": "train"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\154.png",
+      "record_index": 154,
+      "split": "train"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\155.png",
+      "record_index": 155,
+      "split": "train"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\156.png",
+      "record_index": 156,
+      "split": "train"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\157.png",
+      "record_index": 157,
+      "split": "train"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\158.png",
+      "record_index": 158,
+      "split": "train"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\159.png",
+      "record_index": 159,
+      "split": "train"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\160.png",
+      "record_index": 160,
+      "split": "train"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\161.png",
+      "record_index": 161,
+      "split": "train"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\162.png",
+      "record_index": 162,
+      "split": "train"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\163.png",
+      "record_index": 163,
+      "split": "train"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\164.png",
+      "record_index": 164,
+      "split": "train"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\165.png",
+      "record_index": 165,
+      "split": "train"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\166.png",
+      "record_index": 166,
+      "split": "train"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\167.png",
+      "record_index": 167,
+      "split": "validation"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\168.png",
+      "record_index": 168,
+      "split": "validation"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\169.png",
+      "record_index": 169,
+      "split": "validation"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\170.png",
+      "record_index": 170,
+      "split": "validation"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\171.png",
+      "record_index": 171,
+      "split": "validation"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\172.png",
+      "record_index": 172,
+      "split": "validation"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\173.png",
+      "record_index": 173,
+      "split": "validation"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\174.png",
+      "record_index": 174,
+      "split": "validation"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\175.png",
+      "record_index": 175,
+      "split": "validation"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\176.png",
+      "record_index": 176,
+      "split": "validation"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\177.png",
+      "record_index": 177,
+      "split": "validation"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\178.png",
+      "record_index": 178,
+      "split": "validation"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\179.png",
+      "record_index": 179,
+      "split": "validation"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\180.png",
+      "record_index": 180,
+      "split": "validation"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\181.png",
+      "record_index": 181,
+      "split": "validation"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\182.png",
+      "record_index": 182,
+      "split": "validation"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\183.png",
+      "record_index": 183,
+      "split": "validation"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\184.png",
+      "record_index": 184,
+      "split": "validation"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\185.png",
+      "record_index": 185,
+      "split": "validation"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\186.png",
+      "record_index": 186,
+      "split": "validation"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\187.png",
+      "record_index": 187,
+      "split": "validation"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\188.png",
+      "record_index": 188,
+      "split": "validation"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\189.png",
+      "record_index": 189,
+      "split": "validation"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\190.png",
+      "record_index": 190,
+      "split": "validation"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\191.png",
+      "record_index": 191,
+      "split": "validation"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\192.png",
+      "record_index": 192,
+      "split": "validation"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\193.png",
+      "record_index": 193,
+      "split": "validation"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\194.png",
+      "record_index": 194,
+      "split": "validation"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\195.png",
+      "record_index": 195,
+      "split": "validation"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\196.png",
+      "record_index": 196,
+      "split": "validation"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\197.png",
+      "record_index": 197,
+      "split": "validation"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\198.png",
+      "record_index": 198,
+      "split": "validation"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\199.png",
+      "record_index": 199,
+      "split": "validation"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\200.png",
+      "record_index": 200,
+      "split": "validation"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\201.png",
+      "record_index": 201,
+      "split": "validation"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\202.png",
+      "record_index": 202,
+      "split": "validation"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\203.png",
+      "record_index": 203,
+      "split": "validation"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\204.png",
+      "record_index": 204,
+      "split": "validation"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\205.png",
+      "record_index": 205,
+      "split": "validation"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\206.png",
+      "record_index": 206,
+      "split": "validation"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\207.png",
+      "record_index": 207,
+      "split": "validation"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\208.png",
+      "record_index": 208,
+      "split": "validation"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\test\\broken_large\\000.png",
+      "record_index": 209,
+      "split": "test"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\test\\broken_large\\001.png",
+      "record_index": 210,
+      "split": "test"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\test\\broken_large\\002.png",
+      "record_index": 211,
+      "split": "test"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\test\\broken_large\\003.png",
+      "record_index": 212,
+      "split": "test"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\test\\broken_large\\004.png",
+      "record_index": 213,
+      "split": "test"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\test\\broken_large\\005.png",
+      "record_index": 214,
+      "split": "test"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\test\\broken_large\\006.png",
+      "record_index": 215,
+      "split": "test"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\test\\broken_large\\007.png",
+      "record_index": 216,
+      "split": "test"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\test\\broken_large\\008.png",
+      "record_index": 217,
+      "split": "test"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\test\\broken_large\\009.png",
+      "record_index": 218,
+      "split": "test"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\test\\broken_large\\010.png",
+      "record_index": 219,
+      "split": "test"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\test\\broken_large\\011.png",
+      "record_index": 220,
+      "split": "test"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\test\\broken_large\\012.png",
+      "record_index": 221,
+      "split": "test"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\test\\broken_large\\013.png",
+      "record_index": 222,
+      "split": "test"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\test\\broken_large\\014.png",
+      "record_index": 223,
+      "split": "test"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\test\\broken_large\\015.png",
+      "record_index": 224,
+      "split": "test"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\test\\broken_large\\016.png",
+      "record_index": 225,
+      "split": "test"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\test\\broken_large\\017.png",
+      "record_index": 226,
+      "split": "test"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\test\\broken_large\\018.png",
+      "record_index": 227,
+      "split": "test"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\test\\broken_large\\019.png",
+      "record_index": 228,
+      "split": "test"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\test\\broken_small\\000.png",
+      "record_index": 229,
+      "split": "test"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\test\\broken_small\\001.png",
+      "record_index": 230,
+      "split": "test"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\test\\broken_small\\002.png",
+      "record_index": 231,
+      "split": "test"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\test\\broken_small\\003.png",
+      "record_index": 232,
+      "split": "test"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\test\\broken_small\\004.png",
+      "record_index": 233,
+      "split": "test"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\test\\broken_small\\005.png",
+      "record_index": 234,
+      "split": "test"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\test\\broken_small\\006.png",
+      "record_index": 235,
+      "split": "test"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\test\\broken_small\\007.png",
+      "record_index": 236,
+      "split": "test"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\test\\broken_small\\008.png",
+      "record_index": 237,
+      "split": "test"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\test\\broken_small\\009.png",
+      "record_index": 238,
+      "split": "test"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\test\\broken_small\\010.png",
+      "record_index": 239,
+      "split": "test"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\test\\broken_small\\011.png",
+      "record_index": 240,
+      "split": "test"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\test\\broken_small\\012.png",
+      "record_index": 241,
+      "split": "test"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\test\\broken_small\\013.png",
+      "record_index": 242,
+      "split": "test"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\test\\broken_small\\014.png",
+      "record_index": 243,
+      "split": "test"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\test\\broken_small\\015.png",
+      "record_index": 244,
+      "split": "test"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\test\\broken_small\\016.png",
+      "record_index": 245,
+      "split": "test"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\test\\broken_small\\017.png",
+      "record_index": 246,
+      "split": "test"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\test\\broken_small\\018.png",
+      "record_index": 247,
+      "split": "test"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\test\\broken_small\\019.png",
+      "record_index": 248,
+      "split": "test"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\test\\broken_small\\020.png",
+      "record_index": 249,
+      "split": "test"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\test\\broken_small\\021.png",
+      "record_index": 250,
+      "split": "test"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\test\\contamination\\000.png",
+      "record_index": 251,
+      "split": "test"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\test\\contamination\\001.png",
+      "record_index": 252,
+      "split": "test"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\test\\contamination\\002.png",
+      "record_index": 253,
+      "split": "test"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\test\\contamination\\003.png",
+      "record_index": 254,
+      "split": "test"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\test\\contamination\\004.png",
+      "record_index": 255,
+      "split": "test"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\test\\contamination\\005.png",
+      "record_index": 256,
+      "split": "test"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\test\\contamination\\006.png",
+      "record_index": 257,
+      "split": "test"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\test\\contamination\\007.png",
+      "record_index": 258,
+      "split": "test"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\test\\contamination\\008.png",
+      "record_index": 259,
+      "split": "test"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\test\\contamination\\009.png",
+      "record_index": 260,
+      "split": "test"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\test\\contamination\\010.png",
+      "record_index": 261,
+      "split": "test"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\test\\contamination\\011.png",
+      "record_index": 262,
+      "split": "test"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\test\\contamination\\012.png",
+      "record_index": 263,
+      "split": "test"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\test\\contamination\\013.png",
+      "record_index": 264,
+      "split": "test"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\test\\contamination\\014.png",
+      "record_index": 265,
+      "split": "test"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\test\\contamination\\015.png",
+      "record_index": 266,
+      "split": "test"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\test\\contamination\\016.png",
+      "record_index": 267,
+      "split": "test"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\test\\contamination\\017.png",
+      "record_index": 268,
+      "split": "test"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\test\\contamination\\018.png",
+      "record_index": 269,
+      "split": "test"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\test\\contamination\\019.png",
+      "record_index": 270,
+      "split": "test"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\test\\contamination\\020.png",
+      "record_index": 271,
+      "split": "test"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\test\\good\\000.png",
+      "record_index": 272,
+      "split": "test"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\test\\good\\001.png",
+      "record_index": 273,
+      "split": "test"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\test\\good\\002.png",
+      "record_index": 274,
+      "split": "test"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\test\\good\\003.png",
+      "record_index": 275,
+      "split": "test"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\test\\good\\004.png",
+      "record_index": 276,
+      "split": "test"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\test\\good\\005.png",
+      "record_index": 277,
+      "split": "test"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\test\\good\\006.png",
+      "record_index": 278,
+      "split": "test"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\test\\good\\007.png",
+      "record_index": 279,
+      "split": "test"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\test\\good\\008.png",
+      "record_index": 280,
+      "split": "test"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\test\\good\\009.png",
+      "record_index": 281,
+      "split": "test"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\test\\good\\010.png",
+      "record_index": 282,
+      "split": "test"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\test\\good\\011.png",
+      "record_index": 283,
+      "split": "test"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\test\\good\\012.png",
+      "record_index": 284,
+      "split": "test"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\test\\good\\013.png",
+      "record_index": 285,
+      "split": "test"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\test\\good\\014.png",
+      "record_index": 286,
+      "split": "test"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\test\\good\\015.png",
+      "record_index": 287,
+      "split": "test"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\test\\good\\016.png",
+      "record_index": 288,
+      "split": "test"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\test\\good\\017.png",
+      "record_index": 289,
+      "split": "test"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\test\\good\\018.png",
+      "record_index": 290,
+      "split": "test"
+    },
+    {
+      "group": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\test\\good\\019.png",
+      "record_index": 291,
+      "split": "test"
+    }
+  ],
+  "counts": {
+    "test": 83,
+    "train": 167,
+    "validation": 42
+  },
+  "group_key": "image_path",
+  "groups_by_split": {
+    "test": [
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\test\\broken_large\\000.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\test\\broken_large\\001.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\test\\broken_large\\002.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\test\\broken_large\\003.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\test\\broken_large\\004.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\test\\broken_large\\005.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\test\\broken_large\\006.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\test\\broken_large\\007.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\test\\broken_large\\008.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\test\\broken_large\\009.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\test\\broken_large\\010.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\test\\broken_large\\011.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\test\\broken_large\\012.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\test\\broken_large\\013.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\test\\broken_large\\014.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\test\\broken_large\\015.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\test\\broken_large\\016.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\test\\broken_large\\017.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\test\\broken_large\\018.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\test\\broken_large\\019.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\test\\broken_small\\000.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\test\\broken_small\\001.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\test\\broken_small\\002.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\test\\broken_small\\003.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\test\\broken_small\\004.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\test\\broken_small\\005.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\test\\broken_small\\006.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\test\\broken_small\\007.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\test\\broken_small\\008.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\test\\broken_small\\009.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\test\\broken_small\\010.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\test\\broken_small\\011.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\test\\broken_small\\012.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\test\\broken_small\\013.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\test\\broken_small\\014.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\test\\broken_small\\015.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\test\\broken_small\\016.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\test\\broken_small\\017.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\test\\broken_small\\018.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\test\\broken_small\\019.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\test\\broken_small\\020.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\test\\broken_small\\021.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\test\\contamination\\000.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\test\\contamination\\001.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\test\\contamination\\002.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\test\\contamination\\003.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\test\\contamination\\004.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\test\\contamination\\005.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\test\\contamination\\006.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\test\\contamination\\007.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\test\\contamination\\008.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\test\\contamination\\009.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\test\\contamination\\010.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\test\\contamination\\011.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\test\\contamination\\012.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\test\\contamination\\013.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\test\\contamination\\014.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\test\\contamination\\015.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\test\\contamination\\016.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\test\\contamination\\017.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\test\\contamination\\018.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\test\\contamination\\019.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\test\\contamination\\020.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\test\\good\\000.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\test\\good\\001.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\test\\good\\002.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\test\\good\\003.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\test\\good\\004.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\test\\good\\005.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\test\\good\\006.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\test\\good\\007.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\test\\good\\008.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\test\\good\\009.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\test\\good\\010.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\test\\good\\011.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\test\\good\\012.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\test\\good\\013.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\test\\good\\014.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\test\\good\\015.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\test\\good\\016.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\test\\good\\017.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\test\\good\\018.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\test\\good\\019.png"
+    ],
+    "train": [
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\000.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\001.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\002.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\003.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\004.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\005.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\006.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\007.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\008.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\009.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\010.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\011.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\012.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\013.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\014.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\015.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\016.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\017.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\018.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\019.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\020.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\021.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\022.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\023.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\024.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\025.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\026.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\027.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\028.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\029.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\030.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\031.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\032.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\033.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\034.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\035.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\036.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\037.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\038.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\039.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\040.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\041.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\042.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\043.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\044.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\045.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\046.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\047.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\048.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\049.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\050.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\051.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\052.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\053.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\054.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\055.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\056.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\057.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\058.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\059.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\060.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\061.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\062.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\063.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\064.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\065.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\066.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\067.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\068.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\069.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\070.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\071.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\072.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\073.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\074.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\075.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\076.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\077.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\078.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\079.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\080.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\081.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\082.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\083.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\084.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\085.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\086.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\087.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\088.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\089.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\090.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\091.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\092.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\093.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\094.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\095.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\096.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\097.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\098.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\099.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\100.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\101.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\102.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\103.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\104.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\105.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\106.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\107.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\108.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\109.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\110.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\111.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\112.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\113.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\114.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\115.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\116.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\117.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\118.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\119.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\120.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\121.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\122.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\123.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\124.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\125.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\126.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\127.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\128.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\129.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\130.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\131.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\132.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\133.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\134.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\135.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\136.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\137.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\138.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\139.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\140.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\141.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\142.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\143.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\144.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\145.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\146.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\147.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\148.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\149.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\150.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\151.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\152.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\153.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\154.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\155.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\156.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\157.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\158.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\159.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\160.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\161.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\162.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\163.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\164.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\165.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\166.png"
+    ],
+    "validation": [
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\167.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\168.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\169.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\170.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\171.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\172.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\173.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\174.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\175.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\176.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\177.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\178.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\179.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\180.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\181.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\182.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\183.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\184.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\185.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\186.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\187.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\188.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\189.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\190.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\191.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\192.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\193.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\194.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\195.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\196.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\197.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\198.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\199.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\200.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\201.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\202.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\203.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\204.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\205.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\206.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\207.png",
+      "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\raw\\visual\\mvtec_ad\\bottle\\train\\good\\208.png"
+    ]
+  },
+  "split_protocol": "official_train_test_plus_train_normal_validation"
+}

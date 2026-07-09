@@ -1,0 +1,15 @@
+{
+  "category": "bottle",
+  "claim_scope": "visual_baseline_smoke_not_claim_bearing",
+  "data_root": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data",
+  "feature_sets": [
+    "color_stats",
+    "thumbnail_gray"
+  ],
+  "image_size": 32,
+  "manifest_csv": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\industrial_jepa_mvp\\data\\manifests\\mvtec_bottle.csv",
+  "output_dir": "outputs\\baselines\\legacy_mvtec_bottle_simple",
+  "unsafe_debug": false,
+  "validation_fraction": 0.2,
+  "validation_percentile": 95.0
+}

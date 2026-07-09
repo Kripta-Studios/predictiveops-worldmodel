@@ -24,6 +24,11 @@ world-models = [
   "scikit-learn>=1.5",
   "torch>=2.5",
 ]
+visual-baselines = [
+  "numpy>=2.0",
+  "pillow>=10.0",
+  "scikit-learn>=1.5",
+]
 dev = [
   "mypy>=1.10",
   "pytest>=8.0",

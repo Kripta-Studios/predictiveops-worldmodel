@@ -19,6 +19,7 @@ Initial executable scaffolding now includes:
 - Priority A dataset manifest and owner-respecting download/request instructions.
 - a leakage-guarded CNC simple-baseline runner for majority, logistic, and tree baselines.
 - a harder CNC held-out-cutting-condition baseline protocol for context-shift checks.
+- a leakage-guarded MVTec bottle visual smoke baseline using validation-only thresholding.
 - an experimental deterministic multi-horizon Sensor-JEPA world-model trainer for the audited CNC data.
 - a comparison report path that records when simple baselines have higher metrics than the neural model.
 

@@ -62,6 +62,29 @@ split assignments are written separately to `split_manifest.json`. This result
 does not prove causal action modeling, because `ADOC` and `RDOC` remain context
 columns in this legacy data.
 
+## MVTec Bottle Visual Baseline
+
+The legacy MVTec AD bottle manifest is now audited with the same non-leakage
+contract. `label` and `defect_type` are outcomes, and pixel masks are forbidden
+inputs for image-level baselines.
+
+Audit command:
+
+```powershell
+python scripts/data/audit_legacy_mvtec_bottle.py
+```
+
+Example smoke run:
+
+```powershell
+python scripts/benchmarks/run_legacy_mvtec_baselines.py --smoke --output-dir outputs/baselines/legacy_mvtec_bottle_simple
+```
+
+The baseline uses nearest-neighbor distance over simple image features and
+selects the alert threshold from held-out official train-good images only. This
+is a visual sanity floor; it does not replace PatchCore, PaDiM, EfficientAD, or
+frozen foundation-feature baselines required for serious visual comparisons.
+
 ## Next Falsifiable Hypothesis
 
 If the legacy CNC and MVTec tasks are rerun through the new schema, split, and
